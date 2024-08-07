@@ -1,0 +1,441 @@
+/* Style pour le conteneur principal */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Assurez-vous que la barre de navigation est au-dessus des autres contenus */
+    background-color: #268EE6; 
+}
+
+
+body {
+    padding-top: 53px; /* Ajustez cette valeur en fonction de la hauteur de votre barre de navigation */
+}
+
+.container {
+    width: 555px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#filters-form {
+    margin-left: 184px;
+}
+
+/* Style pour chaque carte */
+.card {
+    width: 70%;
+    margin-left: 167px;
+    margin-bottom: 20px;
+
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    /* Centrer le contenu horizontalement */
+    text-align: center;
+}
+
+/* input[type="text"] {
+    
+    border-radius: 6px;
+    width: 215px;
+    border-color: rgb(200, 226, 226);
+    padding: 5px;
+    color: azure;
+    font-family: "Roboto Mono", monospace;
+} */
+.custom-thead th {
+    background-color: #c5c4c4;
+}
+/* 2 eme card */
+.subb-card {
+    display: flex;
+    gap: 10px;
+}
+.main-card {
+    display: flex;
+    height: 320px;
+}
+.titre {
+    text-align: left;
+    font-size: 24px;
+    color: rgb(92, 79, 62);
+}
+.titreterme{
+    color: #534d40;
+    font-weight: bold;
+    font-size: 14px;
+}
+hr {
+    border: none; /* Supprime la bordure par défaut */
+    height: 3px; /* Épaisseur du trait */
+    background-color: #333; /* Couleur du trait */
+    width: 100px; /* Largeur du trait */
+    margin: 20px ; /* Centre le trait horizontalement et ajoute un espace vertical */
+}
+.termes{
+    color: #716b60;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 10px ;
+}
+.button-container {
+    text-align: center;
+     /* Espacement au-dessus des boutons */
+    
+}
+
+.dropzone {
+    box-shadow: 0px 2px 20px 0px #f2f2f2;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fbfdff;
+}
+
+
+
+.dropzone-previews {
+    border: 2px dashed #c9c9ca;
+    border-radius: 5px;
+    background: #f9f9f9;
+    padding: 70px;
+    width: 100%;
+}
+
+
+.button-container button {
+    
+    background-color: #fcfcfc; /* Bleu clair par défaut */
+    border: 1px solid #8fceff;
+    padding: 7px 10px;
+    margin: 0 -2px; /* Réduire l'espacement entre les boutons */
+    cursor: pointer;
+}
+
+.button-container button:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.button-container button:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.button-container button.clicked {
+    background-color: #8fceff; /* Bleu foncé lorsque cliqué */
+}
+
+
+
+h3 {
+    text-align: left;
+    font-size: 16px;
+    color: rgb(92, 79, 62);
+}
+
+
+.connexion{
+    font-size: 24px;
+    
+    text-align: center;
+}
+
+.sub-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    height: 250px;
+    overflow: hidden;
+    flex: 0 1 auto;
+    min-width: 100px;
+    width: 190px;
+    text-align: center;
+}
+.sub-cardd {
+    background-color: #fff;
+    
+    height: 250px;
+    overflow: hidden;
+    flex: 0 1 auto;
+    min-width: 100px;
+    width: 190px;
+    text-align: center;
+}
+.form-control {
+    width: 400px; /* Cela garantit que l'input prend la pleine largeur de son conteneur parent */
+    box-sizing: border-box; /* S'assure que les paddings et borders sont inclus dans la largeur totale */
+}
+.observation{
+    display: flex;
+}
+/* #mes-compagnes-section {
+    display: block;
+} */
+#compagnesection {
+    margin-left: 167px;
+     
+}
+#date_debut{
+    width: 400px; /* largeur fixe sur les écrans larges */
+}
+#details{
+    width: 400px;
+}
+#images{
+    width: 400px;
+}
+.compagnes-boutton-responsive{
+    display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+}
+.logo-img {
+    display: block; /* ou tout autre style nécessaire pour le grand écran */
+}
+.container {
+    padding-bottom: 50px; /* Assurez-vous qu'il y a assez d'espace pour le footer */
+}
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #dfdfdf; /* Couleur de fond bleue */
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    z-index: 1000; 
+}
+
+.footer .social-media-icons a {
+    color: rgb(0, 0, 0); /* Couleur des icônes */
+    margin: 0 10px; /* Espacement entre les icônes */
+    font-size: 24px; /* Taille des icônes */
+}
+
+.footer .social-media-icons a:hover {
+    color: #565656; /* Couleur au survol des icônes */
+}
+#myCustomSwiper {
+    --swiper-navigation-size: 20px; /* Définissez la taille que vous préférez */
+   
+}
+.nav-logo {
+    height: 55px;
+}
+
+.term-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Deux colonnes de taille égale */
+    grid-gap: 20px; /* Espace entre les colonnes */
+    justify-items: center; /* Centre horizontalement tous les éléments dans leurs cellules */
+    align-items: center; /* Centre verticalement tous les éléments dans leurs cellules */
+    
+}
+
+.termes {
+    background-color: #194676; /* Bleu Bootstrap par défaut */
+    color: white; /* Texte blanc */
+    border: none; /* Pas de bordure */
+    padding: 7px 10px; /* Padding intérieur */
+    border-radius: 20px; /* Coins arrondis */
+    text-align: center; /* Centrer le texte */
+    
+    text-decoration: none; /* Pas de soulignement pour les liens */
+    display: block; /* Assurez-vous que le bouton prend toute la largeur de la cellule */
+    width: auto; /* S'assurer que la largeur est automatiquement ajustée au contenu */
+}
+.compagne_boutton{
+   
+    text-align: left;
+    
+        }
+@media screen and (max-width: 768px) {
+    .footer-text {
+        display: none; /* Cache les <p> sur les petits écrans */
+    }
+    .nav-logo {
+        margin-top: 5px;
+        height: 45px;
+        margin-left: -12px;
+    }
+   
+    .logo-img {
+        display: block; /* Assurez-vous que le logo est visible en mode responsive */
+        /* Vous pouvez ajouter d'autres styles ici pour ajuster le logo pour les petits écrans */
+    }
+    .pagination-container {
+        display: none;
+    }
+    #graphique1{
+        height: 140px;
+    }
+    canvas {
+        width: 100%;
+        height: 130px;
+        min-height: 130px;
+    }
+    #date_debut {
+        width: 100%; /* largeur ajustable sur les petits écrans */
+    }
+    #details{
+        width: 100%;
+    }
+    #images{
+        width: 100%;
+    }
+    #compagnesection {
+        margin-left: 0; 
+    }
+    .compagnes-boutton-responsive{
+        display: block;     
+    }
+    .compagne_boutton{
+
+
+text-align: left;
+    }
+    
+   
+
+    .observation{
+        display: block;
+    }
+   
+    
+    .article-card {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    .responsive-table {
+        display: none;
+    }
+    #traficContent ,
+    #notesContent {
+        
+        height: auto;
+        margin-top: 10px;
+        box-shadow: none;
+    }
+   
+    .card {
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    
+        padding: 20px;
+        border: 1px solid #ccc;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+       
+        text-align: center;
+    }
+    
+    .term-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Deux colonnes de taille égale */
+        grid-gap: 10px; /* Espace entre les colonnes */
+        justify-items: center; /* Centre horizontalement tous les éléments dans leurs cellules */
+        align-items: center; /* Centre verticalement tous les éléments dans leurs cellules */
+        
+    }
+    
+    .termes {
+        background-color: #194676; /* Bleu Bootstrap par défaut */
+        color: white; /* Texte blanc */
+        border: none; /* Pas de bordure */
+        padding: 6px 6px; /* Padding intérieur */
+        border-radius: 20px; /* Coins arrondis */
+        text-align: center; /* Centrer le texte */
+        
+        text-decoration: none; /* Pas de soulignement pour les liens */
+        display: block; /* Assurez-vous que le bouton prend toute la largeur de la cellule */
+        width: auto; /* S'assurer que la largeur est automatiquement ajustée au contenu */
+    }
+   
+  
+    
+  
+}
+.table-responsive .table th {
+    white-space: nowrap;
+}
+.titree{
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.table-responsive {
+    display: block;
+}
+.logo a, .logo a:hover, .logo a:focus {
+    text-decoration: none; /* Supprime le soulignement */
+    border-bottom: none; /* Supprime les bordures en bas */
+}
+
+
+ 
+.swiper-button-prev, .swiper-button-next {
+    
+    color: #fff; /* White arrow color */
+    border-radius: 50%; /* Fully rounded button */
+    padding: 10px; /* Adequate clickable area */
+    opacity: 0.5; /* More visible */
+    width: 30px; /* Reasonable width for the button */
+    height: 30px; /* Reasonable height for the button */
+    transform: translate(0, -50%);
+    position: absolute;
+    top: 50%;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    font-size: 14px; /* Adjust arrow size to fit within the button */
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+    opacity: 0.2; 
+}
+.deleg{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(25, 131, 218);
+    font-weight: 700;
+}
+
+.dotted-border {
+    border: 2px dotted #ccc; /* couleur et épaisseur de la bordure pointillée */
+    padding: 10px; /* espace intérieur pour les images */
+}
+
+
+.fa-user {
+   
+    color: rgb(255, 255, 255);
+}
+.fa-headset{
+    color: rgb(255, 255, 255); 
+}
+.assistance-icone{
+    display: none;
+}
+
+
+
+
+
